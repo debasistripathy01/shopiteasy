@@ -57,55 +57,15 @@ app.get("/", (req, res) => {
   // Register 
 
 
-// app.post("/register", async (req, res) => {
-//   const { name, email, password } = req.body;
 
-//   await bcrypt.hash(password, 8, async (err, hash) => {
-//     if (err) {
-//       return res.status(511).send("password not hashed");
-//     }
-//     const user = await USER.create({ name, email, password: hash });
-//     return res.status(200).send({ mess: "Registred", user: user });
-//   });
-// });
   
 
 // Login
 
-app.post("/login", async (req, res) => {
-    const { email, password } = req.body;
-    // console.log(email);
-    const user = await USER.findOne({ email });
-    if (!user) {
-      return res.status(404).send("Invalid User");
-    }
-    const hashed_pass = user.password;
-  
-    await bcrypt.compare(password, hashed_pass, (err, result) => {
-      if (err) {
-        return res.status(511).send("bcryption failed");
-      }
-      if (result) {
-        const token = jwt.sign(
-          { email: user.email, userId: user._id },
-          process.env.TOKEN_KEY
-        );
-        res.send({
-          message: "login successful",
-          token: token,
-          email: email,
-          name: user.name,
-        });
-      } else {
-        res.send("Inavalid Password");
-      }
-    });
-  });
-
-app.listen(4501, async()=>{
+app.listen(process.env.port, async()=>{
     try{
         await connection;
-        console.log(`Connected to DB ${port}`)
+        console.log(`Connected to DB ${process.env.URL}`)
 
     }catch(err){
         console.log(err);
