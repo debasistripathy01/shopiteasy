@@ -2,7 +2,7 @@
   It is an e-commerce.
 # subtle-swing-119
 
-# Myntra using React-Js, Redux, MongoAtlas
+### ShopItEasy using NodeJs, React-Js, Redux, MongoAtlas, Express
 
 # **NEM111 Construct Week Project Masai School**
 
@@ -74,7 +74,7 @@ Material UI & Styled-Components
 ![myntra4](https://user-images.githubusercontent.com/99638448/171442074-c5f1e70a-426b-44ab-9a5d-eb444f75823a.png)
 
 
-# **Login Page** 
+## **Login Page** 
 
 ## Created by [Debasis Tripathy](https://www.linkedin.com/in/debasis-tripathy/).
 
@@ -83,7 +83,7 @@ Material UI & Styled-Components
 ![myntra11](https://user-images.githubusercontent.com/99638448/171443337-daea128c-0350-4cc0-8055-fde04da42983.png)
 
 
-# **Product page**
+## **Product page**
 
 ## Created by [Tarak]([https://www.linkedin.com/in/)).
 
@@ -92,21 +92,21 @@ Material UI & Styled-Components
 ![image](https://user-images.githubusercontent.com/105987614/213974369-fa06f070-e2e1-4947-8f7c-da52ccbf0a24.png)
 
 
-# **Product Details page And Individual Product Page**
+## **Product Details page And Individual Product Page**
 
 ## Created by [Tarak ]([])).
 
 ![image](https://user-images.githubusercontent.com/105987614/213974437-dac44daa-5770-4127-93b4-85ac50ea3f6e.png)
 
 
-# **Add to Cart Page UI**
+## **Add to Cart Page UI**
 
 ## Created by [Amar Deep ](https://www.linkedin.com/in).
 
 ![myntra7](https://user-images.githubusercontent.com/99638448/171442215-a967323c-da5d-4991-a3a2-dafd2bfa8f16.png)
 
 
-# **Address, Payment & Order Successful Page Backend**
+## **Address, Payment & Order Successful Page Backend**
 
 ## Created by [Debasis Tripathy](https://www.linkedin.com/in/debasis-tripathy/).
 
