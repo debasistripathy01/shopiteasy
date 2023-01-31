@@ -9,7 +9,7 @@
 # [Live Project](https://shopiteasy-amar1998deep-gmailcom.vercel.app/).
 
 # **Description**
-This project is a clone of the Mynta Website.
+ShopItEasy is a uniquie website inspired by Myntra Website. 
 
 Myntra is an Indian fashion e-commerce company headquartered in Bengaluru, India. Myntra is a one-stop shop for all your fashion and lifestyle needs. Being India’s largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle-free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.
 
